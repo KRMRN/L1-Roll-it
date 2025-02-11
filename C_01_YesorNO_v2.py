@@ -21,4 +21,4 @@ while True:
     want_instructions = yes_no("Do you want to see the instructions? ")
     print(f'you chose {want_instructions}')
 
-print("we done wrd to b")
+print("we done")

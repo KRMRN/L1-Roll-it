@@ -14,4 +14,4 @@ while True:
         print("please enter yes/no")
         continue
 
-print("we done wrd to b")
+print("we done")
