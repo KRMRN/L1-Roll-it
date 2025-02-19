@@ -1,6 +1,5 @@
 
 
-
 def yes_no(question):
 
     while True:
