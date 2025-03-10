@@ -140,7 +140,7 @@ while comp_score < game_goal and user_score < game_goal:
         player_1_roll = random.randint(1, 6)
         player_1_points += player_1_roll
 
-        print(f"{first}: Rolled a {player_1_points} - has {player_1_points} points")
+        print(f"{first}: Rolled a {player_1_roll} - has {player_1_points} points")
 
         # if the first player score is over 13 end round
         if player_1_points >= 13:
@@ -152,7 +152,6 @@ while comp_score < game_goal and user_score < game_goal:
 
         print(f"{second}: Rolled a {player_2_roll} - has {player_2_points} points")
 
-        print(f"{first}: Rolled a {player_1_points} - has {player_1_points} points")
 
     # end of round
 
